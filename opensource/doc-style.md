@@ -84,6 +84,41 @@ Address the reader directly and write "you can do this" instead of "this can be 
 
 Do not use buzzwords and adjectives that do not describe the concept at hand, the purpose of our documentation is to explain and educate, not to sell.
 
+## Structuring Documentation
+
+Documentation is read by developers in different ways, depending on the situation. Good documentation supports the situation and helps the developer find the information needed to complete the task at hand. 
+
+The first big distinction in documentation styles is between narrative documentation and and reference documentation. Reference documentation is made up of short articles that describe one item in a structured way. This kind of documentation will frequently be looked up and consumed bit by bit.
+
+Narrative documentation, on the other hand, can be read and understood as one document, to be read in parts or in whole. You might skip a chapter or section, but reading the whole narrative documentation will help you get the complete picture.
+
+The two kinds of narrative documentation we create for developers at Adobe are explanatory, helping developers to understand a field, a concept or an architecture and guiding documentation, helping developers to fulfill a particular task.
+
+Some developers prefer to read explanatory documentation first and fully before delving into guiding documentation, while other developers start with guiding documentation, and dip into explanatory documentation only as needed. All developers use reference documentation to look up the specifics of APIs as they work with them. No developer ever reads the entire reference documentation.
+
+All technical documentation should be made available on the Adobe I/O Website in HTML format that is directly accessible from a browser, that means no download of ZIP or PDF files.
+
+### Explanatory Documentation: Help me understand
+* In narrative documentation, explain what the developer can achieve with the API first, then what the API does
+* Write documentation from perspective of a developer that wants to consume the API, not from the developer that built it
+* The most important starting point is not what the thing does, but what it allows you to do.
+* Documentation should mention the standards and APIs used, and point out where deviations and differences from accepted standards exist
+
+### Instructive Documentation: Help me do
+* Use page titles that can be found easily using search engines
+	* Up to 60 characters long
+	* Include keywords and activities the developer or API is performing
+* In narrative documentation, explain why steps need to be performed
+* Instructive documentation should contain no magic, i.e. steps or configuration parameters that need to be set that are not explained
+* Instructive documentation and reference documentation needs examples
+* Instructive documentation should be task oriented, and easy to follow
+* In narrative documentation, explain why steps need to be performed
+
+### Reference Documentation: Help me remember
+* Write reference documentation so that each item (class, method, API function) can stand on it's own. Make references to other items browsable
+* Instructive documentation and reference documentation needs examples
+* Write documentation from perspective of a developer that wants to consume the API, not from the developer that built it
+
 ## Specific Conventions
 
 Below are some specific recommendations (and a few deviations) from AP style
