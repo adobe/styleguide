@@ -62,6 +62,12 @@ language. Don't feel like you have to write documentation that "sounds like
 technical writing."
 Technical documentation should read like the explanations of a friendly, helpful experienced co-worker that you just reached out to via chat.
 
+Content on Adobe I/O should be written as if passed in a conversation “from developer to developer”. 
+
+Imagine Adobe I/O as the helpful colleague in the office next door, who is always willing to explain, but never condescending, who always has an answer, but never makes you feel like she knows it better, who  can always find humor in a difficult situation, but never avoids the hard questions.
+
+Put the user first, the developer second, the technology third – our technology does not matter, what matters is what **you** can do with it for *your user*.
+
 ### Metaphor and Figurative Language
 
 One exception to the "don’t write directly for ESL" rule is to avoid the use of
@@ -69,6 +75,14 @@ metaphor or other
 [figurative language](http://en.wikipedia.org/wiki/Literal_and_figurative_language) to
 describe things. There are too many cultural and social issues that can prevent
 a reader from correctly interpreting a metaphor. This is especially the case for sports metaphors.
+
+### Other Style Tips
+
+Use active voice in instructions and when describing system behavior. Instead of "The API Gateway is used to apply rate limits to incoming HTTP requests" write "The API Gateway applies rate limits to incoming HTTP requests.
+
+Address the reader directly and write "you can do this" instead of "this can be done".
+
+Do not use buzzwords and adjectives that do not describe the concept at hand, the purpose of our documentation is to explain and educate, not to sell.
 
 ## Specific Conventions
 
@@ -127,12 +141,23 @@ Headings take title case to differentiate from sentence case in normal text and 
 1. Capitalize the first word of the title/heading and of any subtitle/subheading;
 2. Capitalize all “major” words (nouns, verbs, adjectives, adverbs, and pronouns) in the title/heading, including the second part of hyphenated major words (e.g., Self-Report not Self-report)
 
+### Punctuation
 
-### Periods
+#### Periods
 
 We prefer one space after a period at the end of a sentence, not two.
 
 See [lists](doc-style.md#lists) below for how to punctuate list items.
+
+#### Exclamation Marks and Semicolons
+
+Both should be avoided. If you need a semicolon, try to rewrite your sentence as two, shorter sentences. The need for an exclamation mark is often an indicator for deeper issues in the content:
+
+> "This feature is really cool!" should be rewritten as "With this feature, you can do this …, which is useful, because …"
+
+> "Don't forget to call `Session.save()`!" can be better written as a note or warning in a separate paragraph.
+
+> "Click the button labeled **next**!" works just as well as "Click the button labeled **next**" and reads much nicer.
 
 ### Abbreviations and Acronyms
 
@@ -165,6 +190,12 @@ in the subsequent list.
 In all lists, if an item is a complete sentence, it should end with a
 period. Otherwise, we prefer no terminal punctuation for list items.
 Each item in a list should start with a capital.
+
+### Structuring Documents
+
+Avoid deep nesting of document structure. Three levels of headings are usually enough.
+
+The same applies to lists: avoid lists that are nested too deeply, in most cases two levels should be enough.
 
 ### Numbers
 
@@ -290,3 +321,45 @@ Be sure to include descriptive alt-text for the graphic. This greatly helps
 users with accessibility issues.
 
 Lastly, be sure you have permission to use any included graphics.
+
+## Word Lists
+
+### How to Handle These Common Words
+
+* add-on (noun, adjective), add on (verb)
+* back end (noun), back-end (adjective)
+* double-click
+* drop-down (noun, adjective), drop down (verb)
+* email (never hyphenate, never capitalize unless it begins a sentence) 
+* front end (noun), front-end (adjective)
+* internet (never capitalize unless it begins a sentence)
+* login (noun, adjective), log in (verb)
+* online (never capitalize unless it begins a sentence)
+* opt-in (noun, adjective) , opt in (verb)
+* pop-up (noun, adjective), pop up (verb)
+* signup (noun, adjective), sign up (verb)
+* username
+* URL
+* developer, developers (not dev or devs)
+* administrator, administration, or administrative (not admin)
+* repository, repositories (not repo or repos)
+* Open Source (capitalized)
+* Inner Source (capitalized, with a space in the middle)
+
+### Avoid These Buzzwords
+
+* Leverage 
+* Uplevel
+* Innovative 
+* Productivity
+* Immersive 
+* Orchestrate
+* Optimize 
+* Synergistic
+* Actionable 
+* Monetize
+* Utilize
+
+### Avoid These Tautologies
+
+Developer API (all APIs are for developers)
