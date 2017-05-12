@@ -1,34 +1,35 @@
 ---
-description: Style guide for Docker documentation describing standards and conventions for contributors
-keywords: style, guide, docker, documentation
+description: Style guide for Adobe I/O documentation describing standards and conventions for contributors
+keywords: style, guide, adobe, documentation
 title: Documentation style and grammar conventions
 ---
 
-## Style standards
+## Style Standards
 
 Over time, different publishing communities have written standards for the style
 and grammar they prefer in their publications. These standards are called
-[style guides](http://en.wikipedia.org/wiki/Style_guide). Generally, Docker’s
+[style guides](http://en.wikipedia.org/wiki/Style_guide). Generally, Adobe's developer
 documentation uses the standards described in the
 [Associated Press's (AP) style guide](http://en.wikipedia.org/wiki/AP_Stylebook).
 If a question about syntactical, grammatical, or lexical practice comes up,
 refer to the AP guide first. If you don’t have a copy of (or online subscription
 to) the AP guide, you can almost always find an answer to a specific question by
-searching the web. If you can’t find an answer, please ask a
-[maintainer](https://github.com/moby/moby/blob/master/MAINTAINERS) and
+searching the web. If you can’t find an answer, please ask
+[Colene](https://twitter.com/colene) and
 we will find the answer.
 
 That said, please don't get too hung up on using correct style. We'd rather have
 you submit good information that doesn't conform to the guide than no
-information at all. Docker's tech writers are always happy to help you with the
+information at all. Adobe I/O's tech writers and authors are always happy to help you with the
 prose, and we promise not to judge or use a red pen!
 
 > **Note**:
-> The documentation is written with paragraphs wrapped at 80 column lines to
+> The documentation is often written with paragraphs wrapped at 80 column lines to
 > make it easier for terminal use. You can probably set up your favorite text
 > editor to do this automatically for you.
+> This is not a requirement, though.
 
-### Prose style
+### Prose Style
 
 In general, try to write simple, declarative prose. We prefer short,
 single-clause sentences and brief three-to-five sentence paragraphs. Try to
@@ -41,26 +42,35 @@ English-as-a-second-language (ESL) speakers specifically. Assume you are writing
 for an ordinary speaker of English with a basic university education. If your
 prose is simple, clear, and straightforward it will translate readily.
 
-One way to think about this is to assume Docker’s users are generally university
+One way to think about this is to assume developers working with Adobe's APIs are generally university
 educated and read at least a "16th" grade level (meaning they have a
 university degree). You can use a
 [readability tester](https://readable.io/) to help guide your judgment. For
 example, the readability score for the phrase "Containers should be ephemeral"
 is around the 13th grade level (first year at university), and so is acceptable.
 
+You should not assume that readers have completed a computers science degree, as many developers are self-taught or have learned at coding bootcamps. This means that you do not have to introduce or define simple concepts and acronyms like API or "importing a module".  More complex, and formal concepts can be used, but should be followed by an explanation. 
+
+For example:
+
+* "Containers should be ephemeral, *they can be stopped at any time.*"
+* "HTTP PUT requests are idempotent, *this means making the same request twice will yield the same result.*"
+* "The `sort` method has linear time complexity, *sorting twice as many items will take two times as long*"
+
 In all cases, we prefer clear, concise communication over stilted, formal
 language. Don't feel like you have to write documentation that "sounds like
 technical writing."
+Technical documentation should read like the explanations of a friendly, helpful experienced co-worker that you just reached out to via chat.
 
-### Metaphor and figurative language
+### Metaphor and Figurative Language
 
 One exception to the "don’t write directly for ESL" rule is to avoid the use of
 metaphor or other
 [figurative language](http://en.wikipedia.org/wiki/Literal_and_figurative_language) to
 describe things. There are too many cultural and social issues that can prevent
-a reader from correctly interpreting a metaphor.
+a reader from correctly interpreting a metaphor. This is especially the case for sports metaphors.
 
-## Specific conventions
+## Specific Conventions
 
 Below are some specific recommendations (and a few deviations) from AP style
 that we use in our docs.
@@ -71,12 +81,12 @@ As long as your prose does not become too slangy or informal, it's perfectly
 acceptable to use contractions in our documentation. Make sure to use
 apostrophes correctly.
 
-### Use of dashes in a sentence.
+### Use of Dashes in a Sentence.
 
 Dashes refers to the en dash (–) and the em dash (—). Dashes can be used to
 separate parenthetical material.
 
-Usage Example: This is an example of a Docker client – which uses the Big Widget
+Usage Example: This is an example of a PhoneGap client – which uses the Big Widget
 to run – and does x, y, and z.
 
 Use dashes cautiously and consider whether commas or parentheses would work just
@@ -87,7 +97,7 @@ More info from the always handy [Grammar Girl site](http://www.quickanddirtytips
 ### Pronouns
 
 It's okay to use first and second person pronouns, especially if it lets you avoid a passive construction. Specifically, always use "we" to
-refer to Docker and "you" to refer to the user. For example, "We built the
+refer to Adobe and "you" to refer to the user. For example, "We built the
 `exec` command so you can resize a TTY session." That said, in general, try to write simple, imperative sentences that avoid the use of pronouns altogether. Say "Now, enter your SSH key" rather than "You can now enter your SSH key."
 
 As much as possible, avoid using gendered pronouns ("he" and "she", etc.).
@@ -99,27 +109,24 @@ default to "he" or "she", that's fine too.
 
 ### Capitalization
 
-#### In general
+#### In General
 
 Only proper nouns should be capitalized in body text. In general, strive to be
 as strict as possible in applying this rule. Avoid using capitals for emphasis
 or to denote "specialness".
 
-The word "Docker" should always be capitalized when referring to either the
-company or the technology. The only exception is when the term appears in a code
-sample.
-
-#### Starting sentences
+#### Starting Sentences
 
 Because code samples should always be written exactly as they would appear
 on-screen, you should avoid starting sentences with a code sample.
 
-#### In headings
+#### In Headings
 
-Headings take sentence capitalization, meaning that only the first letter is
-capitalized (and words that would normally be capitalized in a sentence, e.g.,
-"Docker"). Do not use Title Case (i.e., capitalizing every word) for headings. Generally, we adhere to [AP style
-for titles](http://www.quickanddirtytips.com/education/grammar/capitalizing-titles).
+Headings take title case to differentiate from sentence case in normal text and to increase readability and to make it easier to skim text.
+
+1. Capitalize the first word of the title/heading and of any subtitle/subheading;
+2. Capitalize all “major” words (nouns, verbs, adjectives, adverbs, and pronouns) in the title/heading, including the second part of hyphenated major words (e.g., Self-Report not Self-report)
+
 
 ### Periods
 
@@ -127,12 +134,12 @@ We prefer one space after a period at the end of a sentence, not two.
 
 See [lists](doc-style.md#lists) below for how to punctuate list items.
 
-### Abbreviations and acronyms
+### Abbreviations and Acronyms
 
 * Exempli gratia (e.g.) and id est (i.e.): these should always have periods and
 are always followed by a comma.
 
-* Acronyms are pluralized by simply adding "s", e.g., PCs, OSs.
+* Acronyms are pluralized by simply adding "s", e.g., PCs, OSs, APIs. Do not use apostrophes to pluralize acronyms
 
 * On first use on a given page, the complete term should be used, with the
 abbreviation or acronym in parentheses. E.g., Red Hat Enterprise Linux (RHEL).
@@ -161,7 +168,7 @@ Each item in a list should start with a capital.
 
 ### Numbers
 
-Write out numbers in body text and titles from one to ten. From 11 on, use numerals.
+Write out numbers in body text and titles from one to twelve. From 13 on, use numerals.
 
 ### Notes
 
@@ -169,9 +176,20 @@ Use notes sparingly and only to bring things to the reader's attention that are
 critical or otherwise deserving of being called out from the body text. Please
 format all notes as follows:
 
-    > **Note**:
-    > One line of note text
-    > another line of note text
+    ###### Note
+    One line of note text
+    another line of note text
+
+### Examples
+
+When possible, use examples to make it easier to understand complex concepts. Examples can be either text or code examples.
+
+Some of the technical documentation templates provide special formatting for examples, so please format text examples in Markdown as follows:
+
+```
+> One line of example text
+> another line of example text
+```
 
 ### Avoid excess use of "i.e."
 
@@ -181,18 +199,17 @@ say what it is: "This thing is …"
 
 ### Preferred usages
 
-#### Login vs. log in.
+#### Login vs. Log In.
 
 A "login" is a noun (one word), as in "Enter your login". "Log in" is a compound
 verb (two words), as in "Log in to the terminal".
 
 ### Oxford comma
 
-One way in which we differ from AP style is that Docker’s docs use the [Oxford
-comma](http://en.wikipedia.org/wiki/Serial_comma) in all cases. That’s our
-position on this controversial topic, we won't change our mind, and that’s that!
+One way in which we differ from AP style is that Adobe's developer documentation uses the [Oxford
+comma](http://en.wikipedia.org/wiki/Serial_comma) in all cases. 
 
-### Code and UI text styling
+### Code and UI Text Styling
 
 We require `code font` styling (monospace, sans-serif) for all text that refers
 to a command or other input or output from the CLI. This includes file paths
@@ -215,12 +232,11 @@ Text that refers to a keyboard command or hotkey should be capitalized and bold.
 When writing CLI examples, give the user hints by making the examples resemble
 exactly what they see in their shell:
 
-* Indent shell examples by 4 spaces so they get rendered as code blocks.
-* Start typed commands with `$ `&nbsp;(dollar space), so that they are easily
+* Add three backticks (\`) before and after shell examples so they get rendered as code blocks.
+* Start typed commands with `$ ` (dollar space), so that they are easily
   differentiated from program output.
 * Program output has no prefix.
-* Comments begin with `# `&nbsp;(hash space).
-* In-container shell commands, begin with `$$ `&nbsp;(dollar dollar space).
+* Comments begin with `# ` (hash space).
 
 Please test all code samples to ensure that they are correct and functional so
 that users can successfully copy-and-paste samples directly into the CLI.
@@ -252,17 +268,14 @@ In order to write clear, useful commit messages, please follow these
 For accessibility and usability reasons, avoid using phrases such as "click
 here" for link text. Recast your sentence so that the link text describes the
 content of the link, as we did in the
-["Commit messages" section](doc-style.md#commit-messages) above.
-
-You can use relative links (../linkeditem) to link to other pages in Docker's
-documentation.
+["Commit messages" section](#commit-messages) above.
 
 ## Graphics
 
 When you need to add a graphic, try to make the file size as small as possible.
 If you need help reducing file size of a high-resolution image, feel free to
 contact us for help.
-Usually, graphics should go in the same directory as the .md file that
+Usually, graphics should go in the same directory as the `.md` file that
 references them, or in a subdirectory for images if one already exists.
 
 The preferred file format for graphics is PNG, but GIF and JPG are also
