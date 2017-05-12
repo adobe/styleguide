@@ -181,6 +181,7 @@ Do not abbreviate these words, as they can introduce colloquialisms, make writin
 * developer, developers (not dev or devs)
 * administrator, administration, or administrative (not admin)
 * repository, repositories (not repo or repos)
+* configuration, configurations (not config or configs)
 
 ### Lists
 
