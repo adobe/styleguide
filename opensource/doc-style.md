@@ -141,6 +141,12 @@ Headings take title case to differentiate from sentence case in normal text and 
 1. Capitalize the first word of the title/heading and of any subtitle/subheading;
 2. Capitalize all “major” words (nouns, verbs, adjectives, adverbs, and pronouns) in the title/heading, including the second part of hyphenated major words (e.g., Self-Report not Self-report)
 
+#### Important Proper Nouns
+
+* Open Source is a proper noun and should be capitalized.
+* Inner Source is a proper noun and should be capitalized, too. Avoid the camel case contraction "InnerSource".
+* internet is not a proper noun and should be lowercase, unless at the beginning of a sentence.
+
 ### Punctuation
 
 #### Periods
@@ -340,15 +346,12 @@ Lastly, be sure you have permission to use any included graphics.
 * drop-down (noun, adjective), drop down (verb)
 * email (never hyphenate, never capitalize unless it begins a sentence) 
 * front end (noun), front-end (adjective)
-* internet (never capitalize unless it begins a sentence)
 * online (never capitalize unless it begins a sentence)
 * opt-in (noun, adjective) , opt in (verb)
 * pop-up (noun, adjective), pop up (verb)
 * signup (noun, adjective), sign up (verb)
 * username
 * URL
-* Open Source (capitalized)
-* Inner Source (capitalized, with a space in the middle)
 
 ### Avoid These Buzzwords
 
