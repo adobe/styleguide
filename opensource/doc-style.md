@@ -174,6 +174,13 @@ acronyms other than i.e. and e.g. are capitalized.
 * Other than "e.g." and "i.e." (as discussed above), acronyms do not take
 periods, PC not P.C.
 
+#### Do not Abbreviate These Words
+
+Do not abbreviate these words, as they can introduce colloquialisms, make writing less clear, and lead to confusion:
+
+* developer, developers (not dev or devs)
+* administrator, administration, or administrative (not admin)
+* repository, repositories (not repo or repos)
 
 ### Lists
 
@@ -339,9 +346,6 @@ Lastly, be sure you have permission to use any included graphics.
 * signup (noun, adjective), sign up (verb)
 * username
 * URL
-* developer, developers (not dev or devs)
-* administrator, administration, or administrative (not admin)
-* repository, repositories (not repo or repos)
 * Open Source (capitalized)
 * Inner Source (capitalized, with a space in the middle)
 
