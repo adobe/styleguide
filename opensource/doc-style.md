@@ -333,7 +333,6 @@ Lastly, be sure you have permission to use any included graphics.
 * email (never hyphenate, never capitalize unless it begins a sentence) 
 * front end (noun), front-end (adjective)
 * internet (never capitalize unless it begins a sentence)
-* login (noun, adjective), log in (verb)
 * online (never capitalize unless it begins a sentence)
 * opt-in (noun, adjective) , opt in (verb)
 * pop-up (noun, adjective), pop up (verb)
