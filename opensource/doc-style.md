@@ -21,7 +21,7 @@ we will find the answer.
 That said, please don't get too hung up on using correct style. We'd rather have
 you submit good information that doesn't conform to the guide than no
 information at all. Adobe I/O's tech writers and authors are always happy to help you with the
-prose, and we promise not to judge or use a red pen!
+prose, and we promise not to judge or use a red pen.
 
 > **Note**:
 > The documentation is often written with paragraphs wrapped at 80 column lines to
