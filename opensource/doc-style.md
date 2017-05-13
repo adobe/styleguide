@@ -481,4 +481,4 @@ Lastly, be sure you have permission to use any included graphics.
 
 ### Avoid These Tautologies
 
-Developer API (all APIs are for developers)
+* Developer API (all APIs are for developers)
