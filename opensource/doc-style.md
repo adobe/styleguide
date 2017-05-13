@@ -363,6 +363,18 @@ exactly what they see in their shell:
 Please test all code samples to ensure that they are correct and functional so
 that users can successfully copy-and-paste samples directly into the CLI.
 
+### Trademarks and Brand Names
+
+Our documentation is served with a trademark and copyright disclaimer, so that there is no need to add (TM), (R), ©, ™, etc. after every mention of a product name. This does not help with readability and does not mean that readers will take the content more seriously.
+
+When referring to Adobe products, follow these guidelines:
+
+* Use the full product name on first mention on a page, e.g. "Adobe Photoshop"
+* You can use the abbreviated product name on further mentions on the page, e.g. "Photoshop"
+* Some product names, like "Adobe Sensei" or "Adobe I/O" are never abbreviated, so don't leave off "Adobe" and don't just write "Sensei" or "I/O"
+* For Adobe I/O product functionality, refer to it with the full, capitalized name on the first mention, e.g. "Adobe I/O Console" and use the capitalized functionality name on all subsequent mentions, e.g. "Console". Never use "I/O Console".
+* The full product name can be used when it helps with clarity and understanding, e.g. "You can use the Amazon Web Services (AWS) Console to configure an Amazon API Gateway proxy for the URL found in the Adobe I/O Console".
+
 ## Pull requests
 
 The pull request (PR) process is in place so that we can ensure changes made to
