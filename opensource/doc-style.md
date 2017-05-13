@@ -115,14 +115,32 @@ To help developers find conceptual and explanatory documentation, page titles sh
 * Adobe I/O Events Architecture Overview
 
 ### Instructive Documentation: Help me do
-* Use page titles that can be found easily using search engines
-	* Up to 60 characters long
-	* Include keywords and activities the developer or API is performing
-* In narrative documentation, explain why steps need to be performed
-* Instructive documentation should contain no magic, i.e. steps or configuration parameters that need to be set that are not explained
-* Instructive documentation and reference documentation needs examples
-* Instructive documentation should be task oriented, and easy to follow
-* In narrative documentation, explain why steps need to be performed
+
+Instructive documentation is meant to help a developer perform a specific task. The most common form of instructive documentation is the "getting started guide" that takes a developer through the prerequisites, set of of development environment, installation and use of an API, up to a first, small application. Developers read instructive documentation with a specific goal in mind, so we should write it to help them get from A to B in the shortest time possible. Instead of in-depth explanations of concepts, instructive documentation should explain concepts that are touched in one or two sentences and refer to explanatory documentation for details.
+
+Every instructive documentation should start with a goal: explain what the developer will be able to achieve by following the guide. Make the instructive documentation you write easy to follow by minimizing assumptions and listing all prerequisites. This includes familiarity with programming languages, concepts, installed developer tools, required user accounts, and so on. Instructive documentation can be followed easily by structuring it into step-by-step guidelines.
+
+Instructive documentation should contain no magic, i.e. steps, commands or configuration parameters that need to be followed, applied, or set, but that are not explained. Instead, each step of the instructions should make clear why it needs to be followed.
+
+Examples are absolutely crucial in making instructive documentation easy to follow. Many developers simply copy and paste the examples, so make sure that there is an example for each step along the guide, and that the examples can be copied, pasted and executed. Whenever the developer needs to replace values in the example, highlight these placeholders.
+
+Adobe I/O has page templates for documentation that put a heavy emphasis on examples. In these templates, code samples (starting with triple backticks (\`)) and example introductions (each line starts with a closing angle bracket (>)) are put on the right side.
+
+	> First line explaining the example
+	> second line explaining the example
+	```bash
+	$ echo "Hello World"
+	```
+
+To help developers find instructive documentation, create page titles with search engine optimization (SEO in mind). This means, include the programming languages and APIs that are being used and explained in the title, include the action that will be performed. Many search engines cut titles off after 60 characters, so keep titles shorter by leaving off "how to". Good examples for page titles for instructive documentation are:
+
+* Authenticating Adobe APIs Using OAuth in node.js
+* Subscribing to Creative Cloud API Events in Ruby
+* Creating an AEM Polling Importer Component
+* Generating Markdown documentation from JavaDoc Annotations
+* Getting Started with Serverless Integrations on Adobe I/O Runtime
+
+You can furthermore increase the discoverability of your guides by giving your pages concise page names. Your page name will become part of the URL, which search engines include in their ranking. On Adobe I/O, all URLs for product documentation will already include the keywords "Adobe", "API", and the name of your product, so there is no need to repeat them.
 
 ### Reference Documentation: Help me remember
 * Write reference documentation so that each item (class, method, API function) can stand on it's own. Make references to other items browsable
