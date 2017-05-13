@@ -94,15 +94,25 @@ Narrative documentation, on the other hand, can be read and understood as one do
 
 The two kinds of narrative documentation we create for developers at Adobe are explanatory, helping developers to understand a field, a concept or an architecture and guiding documentation, helping developers to fulfill a particular task.
 
-Some developers prefer to read explanatory documentation first and fully before delving into guiding documentation, while other developers start with guiding documentation, and dip into explanatory documentation only as needed. All developers use reference documentation to look up the specifics of APIs as they work with them. No developer ever reads the entire reference documentation.
+Some developers prefer to read explanatory documentation first and fully before delving into instructive documentation, while other developers start with instructive documentation, and dip into explanatory documentation only as needed. All developers use reference documentation to look up the specifics of APIs as they work with them. No developer ever reads the entire reference documentation.
 
 All technical documentation should be made available on the Adobe I/O Website in HTML format that is directly accessible from a browser, that means no download of ZIP or PDF files.
 
 ### Explanatory Documentation: Help me understand
-* In narrative documentation, explain what the developer can achieve with the API first, then what the API does
-* Write documentation from perspective of a developer that wants to consume the API, not from the developer that built it
-* The most important starting point is not what the thing does, but what it allows you to do.
-* Documentation should mention the standards and APIs used, and point out where deviations and differences from accepted standards exist
+
+This kind of documentation is best used for explaining the big picture and the design constraints of the system. It should explain what an API or component is for, what developers can achieve with it, and what considerations have been made when designing it.
+
+This kind of documentation should always be written from the perspective of the developer that is using the APIs, not from the perspective of the developer who has built it, or even from the perspective of "the system".
+
+In explanatory documentation it is advisable to use simple architecture charts and drawings. See the section [Graphics](#graphics) below for details on usage of graphics in documentation.
+
+Explanatory and instructive documentation should mention and link to the standards and APIs that are being used, so that developers have a point of further reference in case more information is needed. When implementations differ from commonly accepted standards, this should be mentioned, too. We want to minimize surprise and frustration.
+
+To help developers find conceptual and explanatory documentation, page titles should contain keywords like "architecture overview", "core concepts", "understanding". The page title should also include the name of the product or API. Good page titles are:
+
+* Understanding Adobe I/O Authentication
+* Creative Cloud Extensibility Core Concepts
+* Adobe I/O Events Architecture Overview
 
 ### Instructive Documentation: Help me do
 * Use page titles that can be found easily using search engines
