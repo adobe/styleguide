@@ -278,6 +278,8 @@ Do not abbreviate these words, as they can introduce colloquialisms, make writin
 * administrator, administration, or administrative (not admin)
 * repository, repositories (not repo or repos)
 * configuration, configurations (not config or configs)
+* authentication (not auth)
+* authorization (not auth)
 
 ### Lists
 
