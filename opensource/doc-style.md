@@ -118,6 +118,20 @@ All technical documentation should be made available on the Adobe I/O Website in
 * Write reference documentation so that each item (class, method, API function) can stand on it's own. Make references to other items browsable
 * Instructive documentation and reference documentation needs examples
 * Write documentation from perspective of a developer that wants to consume the API, not from the developer that built it
+* Write reference documentation so that each item (class, method, API function) can **stand on its own**. Make references to other items browsable through links. 
+* Where possible, provide **example usage**.
+* References are best **generated based on standard tools** like Swagger,  Javadoc, JSDoc, Appledoc, and the like, which can be consumed by the AEM importer.
+
+### Making Content Easy to Find and Read
+
+The guides should be modular: **one guide per API area or component**. 
+
+A guide can also have dependencies on other guides. 
+
+Example: 
+> The Send To Desktop API guide is dependent on completion of the steps in the 1) Getting Started guide and 2) User Auth UI guide.
+
+Guides and references should be made available on the Adobe I/O Website in **HTML format** that is directly accessible from a browser (no ZIP downloads or PDF files for documentation). For developer guides, use the **SEO checklist** to help ensure that search engines can effectively index your content. 
 
 ## Specific Conventions
 
