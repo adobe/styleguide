@@ -185,7 +185,7 @@ Adobe I/O has templates for narrative documentation that encourage continuous re
 ## Specific Conventions
 
 Below are some specific recommendations (and a few deviations) from AP style
-that we use in our docs.
+that we use in our documentation.
 
 ### Contractions
 
@@ -288,6 +288,7 @@ Do not abbreviate these words, as they can introduce colloquialisms, make writin
 * configuration, configurations (not config or configs)
 * authentication (not auth)
 * authorization (not auth)
+* documentation (not docs)
 
 ### Lists
 
@@ -363,7 +364,7 @@ will style the text as code.
 
 Text from a CLI should be quoted verbatim, even if it contains errors or its
 style contradicts this guide. You can add "(sic)" after the quote to indicate
-the errors are in the quote and are not errors in our docs.
+the errors are in the quote and are not errors in our documentation.
 
 Text taken from a GUI, such as menu text or button text, should be bold.
 Use the text exactly as it appears in the GUI. For example:
@@ -401,7 +402,7 @@ When referring to Adobe products, follow these guidelines:
 ## Pull requests
 
 The pull request (PR) process is in place so that we can ensure changes made to
-the docs are the best changes possible. A good PR will do some or all of the
+the documentation are the best changes possible. A good PR will do some or all of the
 following:
 
 * Explain why the change is needed
