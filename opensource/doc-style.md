@@ -165,14 +165,22 @@ Markdown is a very flexible direct and intermediate documentation format. The li
 
 ### Making Content Easy to Find and Read
 
-The guides should be modular: **one guide per API area or component**. 
+Your documentation is not useful if it cannot be found and if it will not be read. To make your documentation easy to find:
 
-A guide can also have dependencies on other guides. 
+1. Publish it in HTML, not as PDF or in ZIP files
+2. Publish it on Adobe I/O, where it benefits from good SEO rankings, integrated site search, and comprehensive navigation
+3. Use page titles and URLs (as described above) that include keywords a developer would search for
+4. Restrict your documentation to one topic per page. As developers are searching for specific topics, search engines will rank pages higher that are all about that one topic, not multiple things at once.
 
-Example: 
-> The Send To Desktop API guide is dependent on completion of the steps in the 1) Getting Started guide and 2) User Auth UI guide.
+To make your documentation easy to read:
 
-Guides and references should be made available on the Adobe I/O Website in **HTML format** that is directly accessible from a browser (no ZIP downloads or PDF files for documentation). For developer guides, use the **SEO checklist** to help ensure that search engines can effectively index your content. 
+5. Follow the writing tips in this style guide
+6. Keep your documents short: five minutes reading time per page (about 6,000 words) is ideal
+7. Don't make your documents too long: documents longer than 10 minutes reading time (about 12,000 words) work better when split in two
+8. Introduce links between documents, for instance a "Getting Started Guide" and a "Production Readiness Guide" or "Core Concepts" and "Deep Dives"
+9. Concentrate on one topic per document or guide
+
+Adobe I/O has templates for narrative documentation that encourage continuous reading, so order your pages in an order that allows them to be read from beginning to end.
 
 ## Specific Conventions
 
