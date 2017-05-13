@@ -143,12 +143,25 @@ To help developers find instructive documentation, create page titles with searc
 You can furthermore increase the discoverability of your guides by giving your pages concise page names. Your page name will become part of the URL, which search engines include in their ranking. On Adobe I/O, all URLs for product documentation will already include the keywords "Adobe", "API", and the name of your product, so there is no need to repeat them.
 
 ### Reference Documentation: Help me remember
-* Write reference documentation so that each item (class, method, API function) can stand on it's own. Make references to other items browsable
-* Instructive documentation and reference documentation needs examples
-* Write documentation from perspective of a developer that wants to consume the API, not from the developer that built it
-* Write reference documentation so that each item (class, method, API function) can **stand on its own**. Make references to other items browsable through links. 
-* Where possible, provide **example usage**.
-* References are best **generated based on standard tools** like Swagger,  Javadoc, JSDoc, Appledoc, and the like, which can be consumed by the AEM importer.
+
+Reference documentation is consumed like a dictionary or encyclopedia. You don't read the dictionary, you consult it. Like instructive documentation, reference documentation is task-oriented, but the task at hand is a smaller fragment that typically involves refreshing a developer's memory on API usage or configuration parameters.
+
+Write reference documentation so that each item (class, method, API function) can stand on it's own. Make references to other items browsable through links. The Adobe I/O documentation templates support you by having related items, such as classes in the same package easily browsable.
+
+Just like instructive documentation, reference documentation is much easier to follow and much more useful when it includes examples. Adobe I/O provides documentation templates that support reference documentation with many examples, such as `curl` commands for each method and resource in a REST API.
+
+Also, just like instructive documentation, write reference documentation from the perspective of the developer who is using it, not from the perspective of the developer that built it. The consuming developer typically knows nothing, and should not need to know anything about the implementation of the API.
+
+Reference documentation for the same items should follow the same structure, so that a developer who has read a reference entry for one class or function will not get confused when reading another class or function entry. When you generate reference documentation using standards tools like Swagger, Javadoc, Appledoc, etc. a standard structure will get applied and you can keep reference documentation up to date.
+
+Adobe I/O is able to import following reference documentation formats:
+
+* OpenAPI (Swagger)
+* JavaDoc
+* AppleDoc
+* Markdown
+
+Markdown is a very flexible direct and intermediate documentation format. The list [Awesome Markdown](https://github.com/mundimark/awesome-markdown) contains pointers to tutorials and tools that can generate Markdown from many programming languages.
 
 ### Making Content Easy to Find and Read
 
