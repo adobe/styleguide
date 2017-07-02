@@ -4,6 +4,8 @@ keywords: style, guide, adobe, documentation
 title: Documentation style and grammar conventions
 ---
 
+# Adobe I/O Style Guide
+
 ## Style Standards
 
 Over time, different publishing communities have written standards for the style
