@@ -2,6 +2,7 @@
 description: Style guide for Adobe I/O documentation describing standards and conventions for contributors
 keywords: style, guide, adobe, documentation
 title: Documentation style and grammar conventions
+jcr_foobar: baz
 ---
 
 # Adobe I/O Style Guide
