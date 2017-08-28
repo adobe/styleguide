@@ -458,6 +458,7 @@ Lastly, be sure you have permission to use any included graphics.
 
 * add-on (noun, adjective), add on (verb)
 * back end (noun), back-end (adjective)
+* blog post (a single entry in a blog), blog (a collection of blog posts)
 * double-click
 * drop-down (noun, adjective), drop down (verb)
 * email (never hyphenate, never capitalize unless it begins a sentence) 
